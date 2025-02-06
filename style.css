@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #5d5de9, #ea87bf, #ffb554);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    background-image: linear-gradient(to top, #211ea6, #88b1e5);
+    display: flex;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 20px #0000005d;
+    margin: auto;
+}
+
+header img {
+    margin: 15px 0px 0px 15px;
+    width: 200px;
+}
+
+header button {
+    height: 34px;
+    width: 74px;
+    background-color: #0f0e56;
+    font-size: 1.15em;
+    color: #ffffff;
+    border-color: #00000000;
+    box-shadow: 0px 0px 7px #efefef;
+}
+
+header button:hover {
+    width: 87px;
+    transition-duration: 0.5s;
+}
+
+header button#sing-up {
+    margin: 15px 2.5px 0px 30px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+header button#log-in {
+    margin: 15px 0px 0px 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    background-color: #ffffff;
+    min-width: 300px;
+    max-width: 650px;
+    margin: auto;
+    padding: 27px;
+    box-shadow: 0px 0px 20px #00000068;
+}
+
+main h1 {
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2.2em;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+main h2 {
+    font-family: "Oswald" , Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main p {
+    font-weight: 500;
+    text-align: justify;
+    padding-bottom: 23px;
+    text-indent: 30px;
+    line-height: 25px;
+}
+
+main img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px #00000072;
+}
+
+
+main a {
+    text-decoration: none;
+    color: #0b2a79;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+
+main a:hover.text {
+    background-image: linear-gradient(to right, #ff99f1, #ffe169);
+    border-radius: 2px;
+    font-size: 1.05em;
+    transition-duration: 0.5s;
+}
+
+main iframe {
+    margin: auto;
+    width: 100%;
+    box-shadow: 3px 3px 8px #00000072;
+    border-radius: 5px;
+}
+
+main .botao_de_download {
+    width: 350px;
+    margin: auto;
+    display: block;
+    box-shadow: none;
+}
+
+main p#p-top {
+    padding-top: 23px;
+}
+
+footer {
+    display: flex;
+    margin: auto;
+    background-color: #b4b7df;
+    color: #000000;
+    padding: 4px 15px;
+}
+footer img {
+    width: 30px;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+    height: 32px;
+}
+
+footer .fundo_colorido {
+    background-image: linear-gradient(225deg, #8484ff, #ff7ec7);
+    border-radius: 4px;
+    padding: 2.5px;
+}
+
+footer p {
+    margin: auto;
+}
+
+footer a > p#github {
+    display: none;
+    transition-duration: 0.5s;
+}
+
+footer a:hover > p#github {
+    display: inline;
+    font-weight: 700;
+}
+
+footer a > p#vercel {
+    display: none;
+}
+
+footer a:hover > p#vercel {
+    display: inline;
+    font-weight: 700;
+}
+
+footer div {
+    width: 6px;
+}
